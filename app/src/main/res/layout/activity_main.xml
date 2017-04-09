@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.yycars.MainActivity">
+
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:id="@+id/content">
+   </FrameLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="27dp"
+                android:layout_height="26dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="7dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/discount_center"
+                android:id="@+id/iv_dc"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="优惠中心"
+                android:id="@+id/tv_dc"
+                android:gravity="center"
+                android:textColor="#ee742a"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="27dp"
+                android:layout_height="26dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="7dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/re_customer_evaluation"
+                android:id="@+id/iv_ce"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="客户评价"
+                android:id="@+id/tv_ce"
+                android:gravity="center"
+                android:textColor="#6B6B6B"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="27dp"
+                android:layout_height="26dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="7dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/re_telephone_consultation"
+                android:id="@+id/iv_tc"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话咨询"
+                android:id="@+id/tv_tc"
+                android:gravity="center"
+                android:textColor="#6B6B6B"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
